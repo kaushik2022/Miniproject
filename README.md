@@ -1,59 +1,34 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Title of the Project
+The Drowsiness Detection System is a real-time solution designed to monitor eye states and detect signs of drowsiness using computer vision and deep learning.
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+About
+The project on real-time drowsiness detection aims to enhance safety by monitoring eye states through a webcam, employing deep learning techniques. Utilizing a convolutional neural network (CNN), the system classifies eye states as "open" or "closed" in real-time, triggering alerts if prolonged eye closure is detected. The approach focuses on cost-effectiveness by using standard hardware like webcams and Haar cascade classifiers for face and eye detection.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Features
+Continuous Real-Time Monitoring: The system captures live video feed from a standard webcam, enabling uninterrupted monitoring of the user's eye states.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Deep Learning-Based Eye State Classification: It employs a convolutional neural network (CNN) to analyze grayscale images of the eyes and accurately classify them as "open" or "closed." This classification is essential for identifying signs of drowsiness.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+Alert Mechanism: The system is equipped with auditory alarms and visual alerts that activate when prolonged eye closure is detected. This helps to promptly alert the user, reducing the risk of accidents caused by drowsiness
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+Requirements
+Operating System: Compatible with common operating systems like Windows, macOS, or Linux. Programming Language: Python is used for implementing the system. Deep Learning Framework: TensorFlow or Keras to build and train the convolutional neural network (CNN) model. Computer Vision Library: OpenCV is used for real-time video processing, face, and eye detection. Audio Library: Pygame or other audio libraries for handling alert sounds. IDE (Integrated Development Environment): Tools like Visual Studio Code or PyCharm for coding and development.
+
+System Architecture
 
 
-## Output
-
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
-
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Output
+Output1 - A score is displayed on the screen, increasing when eyes are closed and decreasing when they are open.
 
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Output2 - The system classifies the user's eye state as "Open" or "Closed" for each frame captured from the webcam.
 
 
+Accuracy (90%): The system correctly identifies whether a person is drowsy or alert in 90% of the cases.
 
+Results and Impact
+The real-time drowsiness detection system successfully demonstrated its ability to monitor and alert individuals about potential drowsiness. The results show that the system can accurately classify eye states as "open" or "closed" in real-time using a convolutional neural network (CNN). By continuously analyzing video frames captured from a webcam, the system effectively identifies prolonged eye closure, which may indicate drowsiness, and triggers auditory and visual alerts to prompt the user to regain alertness.
 
+Articles published / References
+1)Florez, Ruben, et al. "A CNN-Based Approach for Driver Drowsiness Detection by Real-Time Eye State Identification." Applied Sciences, vol. 13, no. 13, 2024.
+2)Florez, R., Palomino-Quispe, F., Coaquira-Castillo, R. J., & Paixão, T. (2024). A CNN-Based Approach for Driver Drowsiness Detection by Real-Time Eye State Identification. Applied Sciences, 13(13), 7849-7860.
